@@ -1,0 +1,152 @@
+{
+  "summary": {
+    "q3_base_hours": 57.48078732720491,
+    "q4_base_hours": 51.09176172661042
+  },
+  "records": [
+    {
+      "problem": 3,
+      "parameter": "D",
+      "parameter_cn": "水分扩散系数",
+      "perturbation": -0.015,
+      "drying_time_h": 58.25478742586366,
+      "change_percent": 1.3465370511590558,
+      "elasticity": -0.8976913674393705
+    },
+    {
+      "problem": 3,
+      "parameter": "D",
+      "parameter_cn": "水分扩散系数",
+      "perturbation": 0.015,
+      "drying_time_h": 56.730199603315214,
+      "change_percent": -1.3058062681310054,
+      "elasticity": -0.870537512087337
+    },
+    {
+      "problem": 3,
+      "parameter": "hm",
+      "parameter_cn": "表面对流传质系数",
+      "perturbation": -0.015,
+      "drying_time_h": 57.57971346442901,
+      "change_percent": 0.17210296139643194,
+      "elasticity": -0.1147353075976213
+    },
+    {
+      "problem": 3,
+      "parameter": "hm",
+      "parameter_cn": "表面对流传质系数",
+      "perturbation": 0.015,
+      "drying_time_h": 57.385386608700756,
+      "change_percent": -0.16596974909388543,
+      "elasticity": -0.11064649939592362
+    },
+    {
+      "problem": 3,
+      "parameter": "h",
+      "parameter_cn": "表面对流换热系数",
+      "perturbation": -0.015,
+      "drying_time_h": 57.4819829437208,
+      "change_percent": 0.002080028078055979,
+      "elasticity": -0.0013866853853706526
+    },
+    {
+      "problem": 3,
+      "parameter": "h",
+      "parameter_cn": "表面对流换热系数",
+      "perturbation": 0.015,
+      "drying_time_h": 57.479627743497986,
+      "change_percent": -0.0020173413776005235,
+      "elasticity": -0.0013448942517336824
+    },
+    {
+      "problem": 3,
+      "parameter": "R",
+      "parameter_cn": "半径尺度",
+      "perturbation": -0.015,
+      "drying_time_h": 55.86952605726094,
+      "change_percent": -2.803130132459716,
+      "elasticity": 1.8687534216398107
+    },
+    {
+      "problem": 3,
+      "parameter": "R",
+      "parameter_cn": "半径尺度",
+      "perturbation": 0.015,
+      "drying_time_h": 59.1154359129584,
+      "change_percent": 2.8438173201219024,
+      "elasticity": 1.8958782134146015
+    },
+    {
+      "problem": 4,
+      "parameter": "D",
+      "parameter_cn": "水分扩散系数",
+      "perturbation": -0.015,
+      "drying_time_h": 51.776284313106096,
+      "change_percent": 1.339790532490389,
+      "elasticity": -0.8931936883269259
+    },
+    {
+      "problem": 4,
+      "parameter": "D",
+      "parameter_cn": "水分扩散系数",
+      "perturbation": 0.015,
+      "drying_time_h": 50.42774863740123,
+      "change_percent": -1.2996480582570125,
+      "elasticity": -0.8664320388380083
+    },
+    {
+      "problem": 4,
+      "parameter": "hm",
+      "parameter_cn": "表面对流传质系数",
+      "perturbation": -0.015,
+      "drying_time_h": 51.13029892252864,
+      "change_percent": 0.07542741650684757,
+      "elasticity": -0.05028494433789838
+    },
+    {
+      "problem": 4,
+      "parameter": "hm",
+      "parameter_cn": "表面对流传质系数",
+      "perturbation": 0.015,
+      "drying_time_h": 51.0547950457942,
+      "change_percent": -0.07235350586270195,
+      "elasticity": -0.048235670575134636
+    },
+    {
+      "problem": 4,
+      "parameter": "h",
+      "parameter_cn": "表面对流换热系数",
+      "perturbation": -0.015,
+      "drying_time_h": 51.09285793384309,
+      "change_percent": 0.0021455655386015417,
+      "elasticity": -0.001430377025734361
+    },
+    {
+      "problem": 4,
+      "parameter": "h",
+      "parameter_cn": "表面对流换热系数",
+      "perturbation": 0.015,
+      "drying_time_h": 51.09070277621524,
+      "change_percent": -0.002072644119906919,
+      "elasticity": -0.0013817627466046125
+    },
+    {
+      "problem": 4,
+      "parameter": "R",
+      "parameter_cn": "半径尺度",
+      "perturbation": -0.015,
+      "drying_time_h": 49.714432206927206,
+      "change_percent": -2.6957957078349337,
+      "elasticity": 1.7971971385566226
+    },
+    {
+      "problem": 4,
+      "parameter": "R",
+      "parameter_cn": "半径尺度",
+      "perturbation": 0.015,
+      "drying_time_h": 52.489562963564985,
+      "change_percent": 2.7358642366535166,
+      "elasticity": 1.8239094911023443
+    }
+  ]
+}

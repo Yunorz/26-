@@ -1,0 +1,37 @@
+\documentclass[zihao=-4,UTF8]{ctexart}
+\usepackage[a4paper,left=2.6cm,right=2.6cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{booktabs,tabularx,array,fancyhdr,hyperref}
+\setCJKmainfont{SimSun}
+\setmainfont{Times New Roman}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}
+\hypersetup{hidelinks,pdfauthor={},pdftitle={},pdfsubject={},pdfkeywords={}}
+\begin{document}
+\begin{center}{\zihao{2}\bfseries AI工具使用详情}\end{center}
+
+\section*{一、工具名称与使用范围}
+本研究使用OpenAI Codex辅助完成全国大学生数学建模竞赛A题训练。工具用于核对题面信息、整理建模思路、调试Python程序、生成图表与LaTeX排版、检查匿名性和数值一致性。使用日期为2026年9月；模型版本以使用时Codex客户端实际配置为准。
+
+\section*{二、主要使用过程}
+\begin{table}[htbp]\centering\footnotesize
+\begin{tabularx}{\textwidth}{cYYY}
+\toprule 环节 & 提示方式与任务 & 工具输出 & 采纳及核验 \\
+\midrule 题面核对 & 要求读取A题PDF和三个附件，列出变量、单位、边界与输出红线 & 题意摘要、公式转写、任务映射 & 逐页对照原PDF；附件行列、时间步长与表头另用程序复核 \\
+模型建立 & 要求比较平均模型、一维径向模型与移动边界模型 & 热湿耦合方程、Robin边界、固定域映射建议 & 人工依据长径比、题设半径记录及全域阈值选择；所有公式与量纲复算 \\
+程序实现 & 要求实现守恒有限体积法、BDF积分与事件定位 & Python源程序及调试建议 & 运行解析解、零通量、网格收敛、守恒残差和容差试验；粗网格结果未采用 \\
+结果整理 & 要求按四个模板输出并绘制中文图表 & xlsx、PNG/PDF图、代表值表 & 对模板行列、时刻、位置插值、错误值和关键单元格程序化核对 \\
+论文与终审 & 要求按竞赛结构编写LaTeX并检查AI合规 & 论文初稿、交叉审阅与自查建议 & 逐项核对正文数字、图表、代码、支撑材料清单和PDF文本层 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section*{三、未直接采纳与人工修正}
+初次试算使用101个均匀径向节点，问题3得到约71.56 h。该值虽能稳定运行，但网格加密后发生明显变化。检查发现低含水率使表面扩散系数骤降，形成很薄的梯度层，均匀粗网格无法解析。最终改用表面加密网格，并以100、200、400、800区间的事件时刻收敛序列确定正式结果。此过程中的早期数值未写入论文和提交表。
+
+对附件1的4 h后处理也比较了三种建议：永久延长末观测点、末一小时均值、题设恒定值。由于题面明确说明后期维持50 ℃和0.05 kg/kg，且末一小时均值分别为49.9989 ℃和0.04999 kg/kg，最终采用题设值。永久延长单个末点会使时长偏差约16--18 min，故未采纳。
+
+论文初稿曾把问题3与问题4的6.3854 h净差值主要归因于收缩。交叉审阅时发现两问的物性公式也同时改变，原解释无法分离两种作用。随后补算“问题4物性、固定2 cm半径”场景，得到129.8462 h：单独更换物性使时长增加72.3736 h，再加入实测收缩使时长减少78.7590 h。论文据此改为贡献分解表，不再把净差值全部归因于几何变化。
+
+\section*{四、结果责任与复核说明}
+AI工具未替代参赛者作最终判断。题目中的物性经验式、初边值条件、单位换算、停止判据和四份结果表均由人工对照题面确认；关键结论通过独立解析特例、守恒平衡、网格与容差收敛、参数扰动和边界稳健性检验。论文引用文献均要求可检索，工具生成的文字经过删改，未把无法核实的外部数据作为模型输入。
+\end{document}

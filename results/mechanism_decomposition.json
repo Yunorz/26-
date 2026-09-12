@@ -1,0 +1,12 @@
+{
+  "q3_properties_fixed_radius_hours": 57.472601409555914,
+  "q4_properties_fixed_radius_hours": 129.84623533558516,
+  "q4_properties_shrinking_radius_hours": 51.087244916844185,
+  "property_formula_contribution_hours": 72.37363392602924,
+  "shrinkage_contribution_hours": -78.75899041874098,
+  "combined_difference_hours": -6.385356492711729,
+  "q4_fixed_radius_grid_check_hours": {
+    "200": 129.8528180214123,
+    "400": 129.84623533558516
+  }
+}

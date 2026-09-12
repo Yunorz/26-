@@ -1,0 +1,56 @@
+[
+  {
+    "problem": 3,
+    "scenario": "基准PCHIP与名义恒温值",
+    "drying_time_h": 57.48078732720491,
+    "difference_min": 0.0
+  },
+  {
+    "problem": 3,
+    "scenario": "线性插值与名义恒温值",
+    "drying_time_h": 57.48078473902845,
+    "difference_min": -0.00015529058742913548
+  },
+  {
+    "problem": 3,
+    "scenario": "线性插值与末次实测值",
+    "drying_time_h": 57.17782210283903,
+    "difference_min": -18.17791346195264
+  },
+  {
+    "problem": 3,
+    "scenario": "线性插值与末小时均值",
+    "drying_time_h": 57.4825966407252,
+    "difference_min": 0.10855881121742073
+  },
+  {
+    "problem": 4,
+    "scenario": "基准PCHIP与名义恒温值",
+    "drying_time_h": 51.09176172661042,
+    "difference_min": 0.0
+  },
+  {
+    "problem": 4,
+    "scenario": "线性插值与名义恒温值",
+    "drying_time_h": 51.091756105176415,
+    "difference_min": -0.0003372860403771938
+  },
+  {
+    "problem": 4,
+    "scenario": "线性插值与末次实测值",
+    "drying_time_h": 50.82537418883294,
+    "difference_min": -15.983252266648975
+  },
+  {
+    "problem": 4,
+    "scenario": "线性插值与末小时均值",
+    "drying_time_h": 51.093294803815176,
+    "difference_min": 0.09198463228528908
+  },
+  {
+    "problem": 4,
+    "scenario": "半径改用线性插值",
+    "drying_time_h": 51.0952600080043,
+    "difference_min": 0.20989688363286518
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "analytic_heat_max_abs_error_C": {
+    "600": 4.277196410384931e-06,
+    "1200": 3.835253785666737e-06,
+    "1800": 2.6357631668361137e-06,
+    "2400": 1.763396397791439e-06,
+    "3000": 1.1659948029318912e-06,
+    "3600": 7.645143185186498e-07
+  },
+  "zero_transfer_max_abs_error": 0.0,
+  "event_time_hours_by_grid": {
+    "q3": {
+      "100": 57.491371541303664,
+      "200": 57.47707714225244,
+      "400": 57.47349684134626
+    },
+    "q4": {
+      "100": 51.09762580378817,
+      "200": 51.089719535941114,
+      "400": 51.08774198809767
+    }
+  },
+  "event_time_tolerance_difference_hours": {
+    "q3": 1.971378289454151e-05,
+    "q4": 3.8910444062720574e-05
+  },
+  "moisture_balance_relative_residual": {
+    "q1": 2.09473577896552e-06,
+    "q2": 4.312098801955647e-07,
+    "q3": 9.512418780625958e-05,
+    "q4": 0.00021045577678512075
+  },
+  "physical_trends": {
+    "q1": {
+      "temperature_radial_violation": 1.4210854715202004e-14,
+      "moisture_radial_violation": 2.220446049250313e-15,
+      "moisture_min": 1.510239639810494,
+      "moisture_max": 2.5500000000000007
+    },
+    "q2": {
+      "temperature_radial_violation": 7.412808085405231e-05,
+      "moisture_radial_violation": 1.7763568394002505e-15,
+      "moisture_min": 1.0081213281468098,
+      "moisture_max": 2.5500000000000007
+    },
+    "q3": {
+      "temperature_radial_violation": 0.00013386610706334068,
+      "moisture_radial_violation": 2.220446049250313e-15,
+      "moisture_min": 0.052658574830029184,
+      "moisture_max": 2.5500000000000007
+    },
+    "q4": {
+      "temperature_radial_violation": 0.00016931009827203525,
+      "moisture_radial_violation": 1.7763568394002505e-15,
+      "moisture_min": 0.05261856713939372,
+      "moisture_max": 2.5500000000000007
+    }
+  }
+}
